@@ -18,7 +18,7 @@ function App() {
       {/* <Sidebar onClose={onHandlerCart} isOpen={isOpen} /> */}
       <Navbar numbersOfItems={12} onHandlerCart={onHandlerCart} />
       <ItemListContainer 
-        greeting={<h1 className="text-center">Bienvenido/a a Make Up!</h1>}/>
+        greeting={<h1 className="text-center">Bienvenido/a a <span className="span-make">Make</span>Up!</h1>}/>
     </>
   );
 }
